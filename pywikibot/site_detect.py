@@ -46,7 +46,7 @@ class MWSite(object):
         """
         Initializer.
 
-        @raises ServerError: a server error occurred while loading the site
+        @raises pywikibot.exceptions.ServerError: a server error occurred while loading the site
         @raises Timeout: a timeout occurred while loading the site
         @raises RuntimeError: Version not found or version less than 1.14
         """
