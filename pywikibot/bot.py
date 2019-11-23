@@ -1181,7 +1181,7 @@ class OptionHandler(object):
         Get the current value of an option.
 
         @param option: key defined in OptionHandler.availableOptions
-        @raise Error: No valid option is given with option parameter
+        @raise pywikibot.exceptions.Error: No valid option is given with option parameter
         """
         try:
             return self.options.get(option, self.availableOptions[option])
